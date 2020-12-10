@@ -122,3 +122,9 @@
     border-color: black;
     }
 
+
+/*Billederne i sektionen "min fritid"*/
+    .minfritid img {
+    width: 100%;
+    }
+
