@@ -156,3 +156,8 @@
 
 @media screen and (max-width: 768px) {
     
+/*Så boksene bliver stacket ovenpå hinanden */
+    .column {
+    width: 100%;
+    }
+      
