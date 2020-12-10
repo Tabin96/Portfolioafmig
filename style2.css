@@ -213,3 +213,32 @@
     background-size: cover;
     padding-top: 10%;
     }
+
+
+/*Styling af boks*/
+    .baggrundboks {
+    padding: 5px;
+    }
+      
+  
+/* Hvor meget mellemrum der er i mellem boksense */
+    .række,
+    .række > .kolonne {
+    padding: 10px;
+    }
+      
+  
+/* Så boksene er ved siden af hinanden */
+    .kolonne {
+    float: left;
+    width: 18%;
+    margin-left: 0.5%;
+    }
+      
+  
+/* Clear floats after rows */
+    .række:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
