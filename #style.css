@@ -115,3 +115,10 @@
     }
   
 
+/* Design af baggrunden på boksene */
+    .baggrund {
+    padding: 30px;
+    border: solid;
+    border-color: black;
+    }
+
