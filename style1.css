@@ -191,8 +191,10 @@
 /*Logos placering til de sociale medier*/
     .socialemedier1 {
     display: none;
+    }
     
     .socialemedier2 {
-      display: none;
-      }
+    display: none;
+    }
   }
+}
