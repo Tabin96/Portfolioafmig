@@ -75,3 +75,12 @@
     transform: translate(-50%,-50%);
     grid-area: main;
     }
+
+
+/*Styling af seksionen "indhold-tekst""*/
+    .indhold-tekst{
+    width:500px;
+    grid-area: aside;
+    padding-top: 175px;
+    margin-left: 55%;
+    }
