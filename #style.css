@@ -70,3 +70,10 @@
     font-weight: normal;
     }
 
+
+/*Design af titel på projekterne*/
+    .column h3 {
+    text-align: center;
+    padding-top: 30px;
+    }
+
