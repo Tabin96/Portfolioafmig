@@ -107,4 +107,14 @@
     height: 170px;
     }
   
+
+/*Gør så de kommer venstre efter hinanden */
+    .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    }
+  
+  
   
