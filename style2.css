@@ -102,3 +102,25 @@
     text-align: center;
     line-height: 25px;
     }
+
+
+/*Design af knappen til "download cv"*/
+    .portfolio-btn{
+	width: 200px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	background-color:#C8EFE0;
+	border-radius: 30px;
+	margin-left: 30%;
+    border-style: solid;	
+    margin-top: 20px;
+    }
+
+
+/*Design af farveskift, når man tager musen på knappen*/
+  .portfolio-btn:hover{
+  background-color: #40af99;
+  }
