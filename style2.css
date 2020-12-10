@@ -134,3 +134,13 @@
     background-size: cover;
     grid-area: article;
     }
+
+
+/* Container for mine kompetencer procentbar */
+    .mineskills {
+    width: 100%; 
+	background-color: rgb(255, 255, 255);
+    border-style: solid;
+    grid-area: article;
+    margin-top: 3%;
+    }
