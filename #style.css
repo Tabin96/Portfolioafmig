@@ -40,4 +40,12 @@
     color: rgb(158, 126, 126);
     }
 
+
+* Center website */
+    .mineprojekter {
+    max-width: 1000px;
+    margin: auto;
+    }
+  
+
   
