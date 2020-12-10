@@ -278,3 +278,16 @@
     width: 100%;
     padding-bottom: 80px;
     }
+
+
+/*Design af footeren*/
+    footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #D7B2B2;
+    color: black;
+    text-align: center;
+    }
