@@ -9,3 +9,10 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
   }
+
+
+/*Alt design i body */
+    body {
+    font-family: Arial;
+    background-image: url(mønsteeer.jpg);
+    }
