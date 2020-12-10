@@ -93,3 +93,10 @@
     }
 
 
+/* Hvor meget mellemrum der er i mellem boksense */
+    .row,
+    .row > .column {
+    padding: 10px;
+    }
+
+
