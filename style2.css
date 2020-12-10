@@ -308,3 +308,12 @@
     height: 270px;
     padding-left: 150px;
     }
+
+
+/*Design af titel "velkommen til min portfolio"*/
+    .indhold-tekst h2{
+    font-size: 1.5rem;
+    margin-top: 500px;
+    text-align: center;
+    line-height: 34px;
+    }
