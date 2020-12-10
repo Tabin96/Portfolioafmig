@@ -349,3 +349,10 @@
     font-size: 1.7rem;
     text-align: center;
     }
+
+
+/*Størrelsen på teksten på mobil*/
+    .alleskilss p {
+    padding-top: 70px;
+    font-size: 1rem;
+    }
