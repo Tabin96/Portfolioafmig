@@ -159,4 +159,12 @@
     display: none;
     }
   
+
+/*Design af "submit" knap*/
+    input[type=submit] {
+    width: 200%;
+    font-size: 1rem;
+    }
+  
+  
   
