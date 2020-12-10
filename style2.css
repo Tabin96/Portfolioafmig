@@ -144,3 +144,10 @@
     grid-area: article;
     margin-top: 3%;
     }
+
+
+/*Design af overskriften af "mine kompetencer*/
+    .alleskilss h2 { 
+	color:  #99606E; /*Farven af titel*/
+  font-size: 3rem; /*Størrelse af skrift*/
+	}
