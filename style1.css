@@ -54,3 +54,10 @@
     border: solid;
     cursor: pointer;
     }
+
+
+/*Billedet af mig*/
+    .kontaktbillede {
+    width: 270px;
+    margin-left: 210px;
+    }
