@@ -107,3 +107,11 @@
     }
   
 
+/* Clear floats after rows */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+  
+
