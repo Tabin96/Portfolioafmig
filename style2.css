@@ -295,3 +295,8 @@
 
 /*Responsiv til mobil version*/ 
     @media(max-width:768px){
+
+/*Menubaren skifter til nedadgående*/		
+    .row, nav {   
+    flex-direction: column;
+    }
