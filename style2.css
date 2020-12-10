@@ -54,3 +54,11 @@
 	background-color: #ddd;
 	color: rgb(158, 126, 126);
     }
+
+
+/*Styling af billedet af mig*/
+    .mig{
+    width: 400px;
+    height: 550px;
+    }
+  
