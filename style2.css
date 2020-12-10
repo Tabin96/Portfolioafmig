@@ -205,3 +205,11 @@
     font-family: 'Courier New', Courier, monospace;
     color: #99606E;
     }
+
+
+/*Styling af sektionen "mine styrker"*/
+	.minestyrker {
+    background-image: url(lightning.jpg);
+    background-size: cover;
+    padding-top: 10%;
+    }
