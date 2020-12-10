@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: candara;
+
+    
+}
+
+.grid-container-ommig {
+  display: grid, flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header header header header"
+  "picture picture aside aside"
+  "article article article article"
+  "main main main main"
+  "footer footer footer footer"
+  ;
+
+}
