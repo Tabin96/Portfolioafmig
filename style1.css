@@ -94,3 +94,10 @@
     }
   
   
+/* Style container section */
+    .container {
+    border-radius: 8px;
+    padding: 25px;
+    padding-right: 250px;
+    }
+  
