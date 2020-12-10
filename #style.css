@@ -161,11 +161,19 @@
     width: 100%;
     }
 
-    
+
 /*Menubaren skifter til nedadgående*/		
     .row, nav {   
     flex-direction: column;
     }
     
+
+/*Design af titel "mine projekter"*/
+    .mineprojekter h2 {
+    font-size: 1.7rem;
+    padding-top: 50px;
+    }
+
+
 
       
