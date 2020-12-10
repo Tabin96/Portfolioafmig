@@ -300,3 +300,11 @@
     .row, nav {   
     flex-direction: column;
     }
+
+
+/*Billede af mig*/
+    .mig{
+    width: 200px;
+    height: 270px;
+    padding-left: 150px;
+    }
