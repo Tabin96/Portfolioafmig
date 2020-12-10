@@ -124,3 +124,13 @@
   .portfolio-btn:hover{
   background-color: #40af99;
   }
+
+
+/*Design af sektionen "alleskilss"*/
+    .alleskilss {
+    padding: 10%;
+    margin-top: 10%;
+    background-image: url(typing-games.jpg);
+    background-size: cover;
+    grid-area: article;
+    }
