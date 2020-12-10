@@ -317,3 +317,14 @@
     text-align: center;
     line-height: 34px;
     }
+
+
+/*Design af sektion "indhold-tekst"*/
+    .indhold-tekst{
+    width: 67%;
+    position:absolute;
+    top: 50%;
+    padding-right: 30px;
+    transform:translate(-50%,-50%);
+    margin-top: 80px;
+    }
