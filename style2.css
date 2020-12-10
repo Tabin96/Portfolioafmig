@@ -271,3 +271,10 @@
     padding-top: 20px;
     font-size: 1rem;
     }
+
+
+/*Design af sektion med alle billeder*/
+    .baggrundboks img {
+    width: 100%;
+    padding-bottom: 80px;
+    }
