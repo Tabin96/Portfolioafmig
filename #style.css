@@ -128,3 +128,13 @@
     width: 100%;
     }
 
+
+/*Bådbillede*/
+    .bådbillede {
+    padding-bottom: 100px;
+    }
+
+    .baggrund img {
+        width: 100%;
+    }
+    
