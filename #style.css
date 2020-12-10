@@ -100,3 +100,10 @@
     }
 
 
+/* Så boksene er ved siden af hinanden */
+    .column {
+    float: left;
+    width: 50%;
+    }
+  
+
