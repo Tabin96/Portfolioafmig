@@ -189,10 +189,9 @@
   
 /*Logos placering til de sociale medier*/
     .socialemedier1 {
-    padding-left: 100px; 
-    }
+    display: none;
     
     .socialemedier2 {
-      padding-left: 100px; 
+      display: none;
       }
   }
