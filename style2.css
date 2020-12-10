@@ -242,3 +242,23 @@
     display: table;
     clear: both;
     }
+
+
+/*Titlen på mine styrker overskrift*/
+    .minestyrker h3{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #99606E;
+    font-weight: bold;
+    padding-top: 20px;
+    }
+  
+  
+  /*Titlerne af de forskellige styrker*/
+    .minestyrker h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 30px;
+    color:  #99606E;
+    font-weight: bold;
+    }
