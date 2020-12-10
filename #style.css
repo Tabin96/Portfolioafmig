@@ -151,5 +151,8 @@
     text-align: center;
     }
     
-    
+
+/* Responsive layout til mobilversion*/
+
+@media screen and (max-width: 768px) {
     
