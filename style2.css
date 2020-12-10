@@ -30,3 +30,27 @@
     header {
     grid-area: header;
     }
+
+
+/* Styling af navbar */
+    nav {
+	display: flex;
+	background-color: #D7B2B2;
+	}
+
+
+/* Styling af linksene på navbar*/ 
+  nav a {
+	color: white;
+	padding: 15px;
+	text-decoration: none;
+    text-align: center;
+    z-index: 3;
+	}
+  
+
+/* Styling af farveskift med musen på navbar */
+    nav a:hover {
+	background-color: #ddd;
+	color: rgb(158, 126, 126);
+    }
