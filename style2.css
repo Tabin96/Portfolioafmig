@@ -176,3 +176,32 @@
     .pro {width: 60%; background-color: #C8EFE0;} 
     .ph {width: 40%; background-color: #C8EFE0;} 
     .xd {width: 65%; background-color: #C8EFE0;}  
+
+
+
+/*Design af sektion "citat"*/
+    .citat {
+    padding: 150px;
+    grid-area: citat;
+      }
+  
+  
+/*Styling af citatet*/
+    .citat h3 {	  
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:#99606E;
+    font-style: italic;
+    padding-top: 15px;
+    justify-content: center;
+    }
+      
+    
+  /*Styling af lille tekst under citat*/
+    .citat h2 {
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #99606E;
+    }
