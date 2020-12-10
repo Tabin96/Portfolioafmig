@@ -328,3 +328,10 @@
     transform:translate(-50%,-50%);
     margin-top: 80px;
     }
+
+
+/*Design af knappen til "download cv"*/
+    .portfolio-btn{
+    margin-left: 7%;
+    margin-top: 40px;
+    }
