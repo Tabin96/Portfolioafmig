@@ -56,3 +56,10 @@
     padding-top: 20px;
     }
 
+
+/*Titel over billederne*/
+    .row h4 {
+    text-align: center;
+    font-weight: normal;
+    }
+
