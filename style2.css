@@ -169,3 +169,10 @@
     margin-top: 10px;
     font-size: 1rem;
     }
+
+
+/*Procenterne på mine skills, og baggrundsfarven*/ 
+    .html {width: 50%; background-color:#C8EFE0;} 
+    .pro {width: 60%; background-color: #C8EFE0;} 
+    .ph {width: 40%; background-color: #C8EFE0;} 
+    .xd {width: 65%; background-color: #C8EFE0;}  
