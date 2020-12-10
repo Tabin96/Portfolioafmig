@@ -33,3 +33,14 @@
 	background-color: #ddd;
 	color: rgb(158, 126, 126);
     }
+
+
+/* Styling på boksene i kontaktformular */
+    input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
