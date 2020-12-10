@@ -160,4 +160,12 @@
     .column {
     width: 100%;
     }
+
+    
+/*Menubaren skifter til nedadgående*/		
+    .row, nav {   
+    flex-direction: column;
+    }
+    
+
       
