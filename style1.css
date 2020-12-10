@@ -141,5 +141,10 @@
     }
   
   
+/*Navbaren skifter til nedadgående*/		
+  .row, nav {   
+    flex-direction: column;
+    }
+  
   
   
