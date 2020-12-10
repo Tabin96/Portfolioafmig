@@ -151,3 +151,21 @@
 	color:  #99606E; /*Farven af titel*/
   font-size: 3rem; /*Størrelse af skrift*/
 	}
+
+
+ /*Design af selve procentbar boksense*/   
+    .skills {
+	text-align: right; 
+	padding-top: 10px; 
+	padding-bottom: 10px; 
+	color: black; 
+    font-weight: bold;
+    }
+
+
+    /*Skriften på html, css, photoshop, xd ovenover boksene*/
+    .alleskilss p {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1rem;
+    }
