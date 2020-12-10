@@ -47,5 +47,12 @@
     margin: auto;
     }
   
+    
+/*Overskriften til mine projekter*/
+    .mineprojekter h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #99606E;
+    padding-top: 20px;
+    }
 
-  
