@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: candara;
+   
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+
+/*Alt design i body */
+    body {
+    font-family: Arial;
+    background-image: url(mønsteeer.jpg);
+    }
+
+
+/* Styling af navbar */
+    nav {
+    display: flex;
+    background-color:#D7B2B2;
+    }
+  
+
+/* Styling af linksene på navbar*/ 
+    nav a {
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    }
+    
+
+/* Styling af farveskift med musen på navbar */
+    nav a:hover {
+    background-color: #ddd;
+    color: rgb(158, 126, 126);
+    }
+
+
+* Center website */
+    .mineprojekter {
+    max-width: 1000px;
+    margin: auto;
+    }
+  
+    
+/*Overskriften til mine projekter*/
+    .mineprojekter h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #99606E;
+    padding-top: 20px;
+    }
+
+
+/*Titel over billederne*/
+    .row h4 {
+    text-align: center;
+    font-weight: normal;
+    }
+
+
+/*Projektbeskrivelse tekst*/
+    .baggrund h5 {
+    font-size: 1.05rem;
+    font-weight: normal;
+    }
+
+
+/*Design af titel på projekterne*/
+    .column h3 {
+    text-align: center;
+    padding-top: 30px;
+    }
+
+
+/*Overskriften til mine skjulte talenter*/
+    .minfritid h4 {
+    font-size: 50px;
+    text-align: center;
+    color: #99606E;
+    padding-top: 40px;
+    }
+
+
+/*Underteksten til mine skjulte talenter*/
+    .minfritid p{
+    text-align: center;
+    }
+
+
+/* Hvor meget mellemrum der er i mellem boksense */
+    .row,
+    .row > .column {
+    padding: 10px;
+    }
+
+
+/* Så boksene er ved siden af hinanden */
+    .column {
+    float: left;
+    width: 50%;
+    }
+  
+
+/* Clear floats after rows */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+  
+
+/* Design af baggrunden på boksene */
+    .baggrund {
+    padding: 30px;
+    border: solid;
+    border-color: black;
+    }
+
+
+/*Billederne i sektionen "min fritid"*/
+    .minfritid img {
+    width: 100%;
+    }
+
+
+/*Bådbillede*/
+    .bådbillede {
+    padding-bottom: 100px;
+    }
+
+    .baggrund img {
+        width: 100%;
+    }
+    
+
+/*Design af footeren*/
+    footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #D7B2B2;
+    color: black;
+    text-align: center;
+    }
+    
+
+/* Responsive layout til mobilversion*/
+
+@media screen and (max-width: 768px) {
+    
+/*Så boksene bliver stacket ovenpå hinanden */
+    .column {
+    width: 100%;
+    }
+
+
+/*Menubaren skifter til nedadgående*/		
+    .row, nav {   
+    flex-direction: column;
+    }
+    
+
+/*Design af titel "mine projekter"*/
+    .mineprojekter h2 {
+    font-size: 1.7rem;
+    padding-top: 50px;
+    }
+
+
+/*Design af titel "mine skjulte talenter*/
+    .minfritid h4 {
+    font-size: 1.8rem;
+    padding-top: 20px;
+    }
+
+  }
+
+
+
+      
