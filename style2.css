@@ -19,3 +19,8 @@
   ;
 
 }
+
+/*Baggrundsbillede på hele siden*/
+    body {
+    background-image: url(mønsteeer.jpg);
+    }
