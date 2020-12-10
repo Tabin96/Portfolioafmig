@@ -262,3 +262,12 @@
     color:  #99606E;
     font-weight: bold;
     }
+
+
+/*Design af beskrivelsen under styrkerne*/
+    .minestyrker h5 {
+    text-align: center;
+    line-height: 22px;
+    padding-top: 20px;
+    font-size: 1rem;
+    }
