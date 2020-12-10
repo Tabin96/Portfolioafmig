@@ -356,3 +356,22 @@
     padding-top: 70px;
     font-size: 1rem;
     }
+
+
+/*Design af sektionen "citat"*/
+    .citat{
+    padding-right: 7%;
+    padding-left: 7%;
+    } 
+  
+  
+/*Citatstørrelse*/
+    .citat h3{
+    font-size: 1.7rem;
+    }
+      
+  
+/*Design af undertekst til citat*/	
+    .citat h2 {
+    font-size: 1rem;
+    }
