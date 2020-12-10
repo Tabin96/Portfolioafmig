@@ -291,3 +291,7 @@
     color: black;
     text-align: center;
     }
+
+
+/*Responsiv til mobil version*/ 
+    @media(max-width:768px){
