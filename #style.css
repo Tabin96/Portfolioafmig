@@ -16,3 +16,12 @@
     font-family: Arial;
     background-image: url(mønsteeer.jpg);
     }
+
+
+/* Styling af navbar */
+    nav {
+    display: flex;
+    background-color:#D7B2B2;
+    }
+  
+    
