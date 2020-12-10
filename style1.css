@@ -80,5 +80,13 @@
     .mintitel {
     padding-left: 230px;
     }
+
+
+/*Farveskift af mus over knappen*/
+    input[type=submit]:hover {
+    background-color: #40af99;
+    }
+  
+  
   
   
