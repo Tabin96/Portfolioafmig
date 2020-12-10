@@ -133,5 +133,13 @@
 
 @media screen and (max-width: 600px){
   
+
+/*Design af "Submit" knappen*/
+    .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    }
+  
+  
   
   
