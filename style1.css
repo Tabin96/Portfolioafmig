@@ -10,3 +10,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url(mønsteeer.jpg);
     }
+
+
+/* Styling af menubar */
+    nav {
+	display: flex;
+	background-color: #D7B2B2;
+	}
