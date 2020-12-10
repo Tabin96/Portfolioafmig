@@ -375,3 +375,48 @@
     .citat h2 {
     font-size: 1rem;
     }
+
+
+/*Sektion '"mine styrker"*/
+    .minestyrker {
+    background-image: none;
+    background-color: white;
+    }  
+      
+  
+/*Design af overskrift "mine styrker"*/
+    .minestyrker h2 {
+    padding-top: 40px;
+    font-size: 2rem;
+    }
+   
+  
+/*Design af overskriften til mine styrker*/  
+    .minestyrker h3{
+    font-size: 1.5rem;
+    }
+  
+  
+/*Beskrivelsen af mine styrker*/
+    .minestyrker h5 {
+    font-size: 1rem;;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+    }
+  
+  
+/*Design af billederne i "mine styrker"*/
+    .baggrundboks img {
+    height: 100px;
+    width: 100px;
+    padding-left: 110px;
+    }
+      
+/*Så de bliver stacket ovenpå hinanden*/   
+    .kolonne {
+    width: 90%;
+    } 	
+  
+  }
