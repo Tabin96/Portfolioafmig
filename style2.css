@@ -342,3 +342,10 @@
     padding: 50px;
     margin-top: 250%;
     }
+
+
+/*Design af titel "Mine kompetencer"*/
+    .alleskilss h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    }
