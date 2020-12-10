@@ -24,4 +24,13 @@
     background-color:#D7B2B2;
     }
   
+
+/* Styling af linksene på navbar*/ 
+    nav a {
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    }
     
+  
