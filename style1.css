@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: candara;
+  }
+
+
+    body {
+    background-image: url(mønsteeer.jpg);
+    }
+
+
+/* Styling af menubar */
+    nav {
+	display: flex;
+	background-color: #D7B2B2;
+    }
+    
+
+/* Styling af linksene på menubar*/ 
+    nav a {
+	color: black;
+	padding: 15px;
+	text-decoration: none;
+	text-align: center;
+    }
+    
+
+/* Styling af farveskift med musen på menubar */
+    nav a:hover {
+	background-color: #ddd;
+	color: rgb(158, 126, 126);
+    }
+
+
+/* Styling på boksene i kontaktformular */
+    input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+
+
+/*Styling på "submit" knap*/
+    input[type=submit] {
+    background-color:#C8EFE0;
+    color: black;
+    padding: 12px 20px;
+    border: solid;
+    cursor: pointer;
+    }
+
+
+/*Billedet af mig*/
+    .kontaktbillede {
+    width: 270px;
+    margin-left: 210px;
+    }
+
+
+/*Tekst over kontaktformular*/  
+    .container h2 {
+    padding-left: 690px;
+    padding-top:  80px;
+    color: #99606E;
+    }
+  
+  
+/*Mit navn under billedet*/
+    .titeljoanna {
+    padding-left: 250px;
+    }
+
+
+/*Hvad jeg studerer til tekst under billeder*/
+    .mintitel {
+    padding-left: 230px;
+    }
+
+
+/*Farveskift af mus over knappen*/
+    input[type=submit]:hover {
+    background-color: #40af99;
+    }
+  
+  
+/*Logos placering til de sociale medier*/
+    .socialemedier1 {
+    padding-left: 325px; 
+    }
+  
+  
+/* Style container section */
+    .container {
+    border-radius: 8px;
+    padding: 25px;
+    padding-right: 250px;
+    }
+  
+
+/*Størrelse på indsættelse af besked*/
+    .subject {
+    height: 170px;
+    }
+  
+
+/*Gør så de kommer venstre efter hinanden */
+    .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    }
+  
+
+/*Design af footeren*/
+    footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #D7B2B2;
+    color: black;
+    text-align: center;
+    }
+
+/* Responsiv til mobilversion*/
+
+@media screen and (max-width: 600px){
+  
+
+/*Design af "Submit" knappen*/
+    .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    }
+  
+  
+/*Navbaren skifter til nedadgående*/		
+  .row, nav {   
+    flex-direction: column;
+    }
+  
+  
+  
+/* Størrelse af beskedområdet */
+    input[type=text], select, textarea {
+    width: 500%;
+    }
+  
+
+/*Tekst over kontaktformular*/
+  .container h2 {
+    display: none;
+    }
+  
+
+/*Design af "submit" knap*/
+    input[type=submit] {
+    width: 200%;
+    font-size: 1rem;
+    }
+  
+  
+/*Billede af mig*/
+    .kontaktbillede {
+    width: 200px;
+    margin-left: 50px;
+    }
+  
+  
+/*Mit navn under billedet*/
+    .titeljoanna {
+    padding-left: 90px;
+    font-size: 2rem;
+    }
+  
+  
+/*Hvad jeg studerer til tekst under billeder*/
+    .mintitel {
+    display: none;
+    }
+  
+  
+/*Logos placering til de sociale medier*/
+    .socialemedier1 {
+    display: none;
+    }
+    
+    .socialemedier2 {
+    display: none;
+    }
+  }
