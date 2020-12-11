@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: candara;
+
+    
+}
+
+.grid-container-ommig {
+  display: grid, flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header header header header"
+  "picture picture aside aside"
+  "article article article article"
+  "main main main main"
+  "footer footer footer footer"
+  ;
+
+}
+
+/*Baggrundsbillede på hele siden*/
+    body {
+    background-image: url(mønsteeer.jpg);
+    }
+
+
+/*Styling af headeren*/
+    header {
+    grid-area: header;
+    }
+
+
+/* Styling af navbar */
+    nav {
+	display: flex;
+	background-color: #D7B2B2;
+	}
+
+
+/* Styling af linksene på navbar*/ 
+  nav a {
+	color: white;
+	padding: 15px;
+	text-decoration: none;
+    text-align: center;
+    z-index: 3;
+	}
+  
+
+/* Styling af farveskift med musen på navbar */
+    nav a:hover {
+	background-color: #ddd;
+	color: rgb(158, 126, 126);
+    }
+
+
+/*Styling af billedet af mig*/
+    .mig{
+    width: 400px;
+    height: 550px;
+    }
+  
+
+/*Styling af sektionen "indhold"*/
+    .indhold{
+    width:90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    grid-area: main;
+    }
+
+
+/*Styling af seksionen "indhold-tekst""*/
+    .indhold-tekst{
+    width:500px;
+    grid-area: aside;
+    padding-top: 175px;
+    margin-left: 55%;
+    }
+
+
+/*Design af titel "Velkommen til min portfolio"*/
+    .indhold-tekst h2{
+    font-size: 3.5rem;
+    color: #99606E;
+    margin:0px 0px 10px 0px;
+    line-height: 60px;
+    text-align: center;
+    }
+
+
+/*Design af undertekst til "velkommen til min portfolio"*/
+    .indhold-tekst p{
+    color: black;
+    text-align: center;
+    line-height: 25px;
+    }
+
+
+/*Design af knappen til "download cv"*/
+    .portfolio-btn{
+	width: 200px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	background-color:#C8EFE0;
+	border-radius: 30px;
+	margin-left: 30%;
+    border-style: solid;	
+    margin-top: 20px;
+    }
+
+
+/*Design af farveskift, når man tager musen på knappen*/
+  .portfolio-btn:hover{
+  background-color: #40af99;
+  }
+
+
+/*Design af sektionen "alleskilss"*/
+    .alleskilss {
+    padding: 10%;
+    margin-top: 10%;
+    background-image: url(typing-games.jpg);
+    background-size: cover;
+    grid-area: article;
+    }
+
+
+/* Container for mine kompetencer procentbar */
+    .mineskills {
+    width: 100%; 
+	background-color: rgb(255, 255, 255);
+    border-style: solid;
+    grid-area: article;
+    margin-top: 3%;
+    }
+
+
+/*Design af overskriften af "mine kompetencer*/
+    .alleskilss h2 { 
+	color:  #99606E; /*Farven af titel*/
+  font-size: 3rem; /*Størrelse af skrift*/
+	}
+
+
+ /*Design af selve procentbar boksense*/   
+    .skills {
+	text-align: right; 
+	padding-top: 10px; 
+	padding-bottom: 10px; 
+	color: black; 
+    font-weight: bold;
+    }
+
+
+    /*Skriften på html, css, photoshop, xd ovenover boksene*/
+    .alleskilss p {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1rem;
+    }
+
+
+/*Procenterne på mine skills, og baggrundsfarven*/ 
+    .html {width: 50%; background-color:#C8EFE0;} 
+    .pro {width: 60%; background-color: #C8EFE0;} 
+    .ph {width: 40%; background-color: #C8EFE0;} 
+    .xd {width: 65%; background-color: #C8EFE0;}  
+
+
+
+/*Design af sektion "citat"*/
+    .citat {
+    padding: 150px;
+    grid-area: citat;
+      }
+  
+  
+/*Styling af citatet*/
+    .citat h3 {	  
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:#99606E;
+    font-style: italic;
+    padding-top: 15px;
+    justify-content: center;
+    }
+      
+    
+  /*Styling af lille tekst under citat*/
+    .citat h2 {
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #99606E;
+    }
+
+
+/*Styling af sektionen "mine styrker"*/
+	.minestyrker {
+    background-image: url(lightning.jpg);
+    background-size: cover;
+    padding-top: 10%;
+    }
+
+
+/*Styling af boks*/
+    .baggrundboks {
+    padding: 5px;
+    }
+      
+  
+/* Hvor meget mellemrum der er i mellem boksense */
+    .række,
+    .række > .kolonne {
+    padding: 10px;
+    }
+      
+  
+/* Så boksene er ved siden af hinanden */
+    .kolonne {
+    float: left;
+    width: 18%;
+    margin-left: 0.5%;
+    }
+      
+  
+/* Clear floats after rows */
+    .række:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+
+/*Titlen på mine styrker overskrift*/
+    .minestyrker h3{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #99606E;
+    font-weight: bold;
+    padding-top: 20px;
+    }
+  
+  
+  /*Titlerne af de forskellige styrker*/
+    .minestyrker h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 30px;
+    color:  #99606E;
+    font-weight: bold;
+    }
+
+
+/*Design af beskrivelsen under styrkerne*/
+    .minestyrker h5 {
+    text-align: center;
+    line-height: 22px;
+    padding-top: 20px;
+    font-size: 1rem;
+    }
+
+
+/*Design af sektion med alle billeder*/
+    .baggrundboks img {
+    width: 100%;
+    padding-bottom: 80px;
+    }
+
+
+/*Design af footeren*/
+    footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #D7B2B2;
+    color: black;
+    text-align: center;
+    }
+
+
+/*Responsiv til mobil version*/ 
+    @media(max-width:768px){
+
+/*Menubaren skifter til nedadgående*/		
+    .row, nav {   
+    flex-direction: column;
+    }
+
+
+/*Billede af mig*/
+    .mig{
+    width: 200px;
+    height: 270px;
+    padding-left: 150px;
+    }
+
+
+/*Design af titel "velkommen til min portfolio"*/
+    .indhold-tekst h2{
+    font-size: 1.5rem;
+    margin-top: 500px;
+    text-align: center;
+    line-height: 34px;
+    }
+
+
+/*Design af sektion "indhold-tekst"*/
+    .indhold-tekst{
+    width: 67%;
+    position:absolute;
+    top: 50%;
+    padding-right: 30px;
+    transform:translate(-50%,-50%);
+    margin-top: 80px;
+    }
+
+
+/*Design af knappen til "download cv"*/
+    .portfolio-btn{
+    margin-left: 7%;
+    margin-top: 40px;
+    }
+
+
+/*Design af sektion "alleskills"*/
+    .alleskilss {
+    padding: 50px;
+    margin-top: 250%;
+    }
+
+
+/*Design af titel "Mine kompetencer"*/
+    .alleskilss h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    }
+
+
+/*Størrelsen på teksten på mobil*/
+    .alleskilss p {
+    padding-top: 70px;
+    font-size: 1rem;
+    }
+
+
+/*Design af sektionen "citat"*/
+    .citat{
+    padding-right: 7%;
+    padding-left: 7%;
+    } 
+  
+  
+/*Citatstørrelse*/
+    .citat h3{
+    font-size: 1.7rem;
+    }
+      
+  
+/*Design af undertekst til citat*/	
+    .citat h2 {
+    font-size: 1rem;
+    }
+
+
+/*Sektion '"mine styrker"*/
+    .minestyrker {
+    background-image: none;
+    background-color: white;
+    }  
+      
+  
+/*Design af overskrift "mine styrker"*/
+    .minestyrker h2 {
+    padding-top: 40px;
+    font-size: 2rem;
+    }
+   
+  
+/*Design af overskriften til mine styrker*/  
+    .minestyrker h3{
+    font-size: 1.5rem;
+    }
+  
+  
+/*Beskrivelsen af mine styrker*/
+    .minestyrker h5 {
+    font-size: 1rem;;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+    }
+  
+  
+/*Design af billederne i "mine styrker"*/
+    .baggrundboks img {
+    height: 100px;
+    width: 100px;
+    padding-left: 110px;
+    }
+      
+/*Så de bliver stacket ovenpå hinanden*/   
+    .kolonne {
+    width: 90%;
+    } 	
+  
+  }
